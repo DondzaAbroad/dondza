@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Inicial</title>
+  
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    #splash-screen {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      animation: fadeOutScreen 3s forwards;
+      animation-delay: 4s;
+    }
+
+    .logo {
+      width: 200px; /* Tamanho médio da imagem */
+      height: auto; /* Mantém a proporção */
+      animation: zoomFade 4s ease-in-out;
+    }
+
+    @keyframes zoomFade {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes fadeOutScreen {
+      to {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Tela de entrada com logo -->
+  <div id="splash-screen">
+    <img src="c:\Users\louis\OneDrive\Ambiente de Trabalho\Site DA\WhatsApp Image 2025-02-20 at 17.30.33-fotor-20250617144948.png" alt="Logo ESI" class="logo" />
+  </div>
+
+  
+  <script>
+
+ document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        // Redireciona para a nova página após 3 segundos
+        window.location.href = "paginainicial.html";
+      }, 3000);
+    });
+  </script>
+</body>
+</html>

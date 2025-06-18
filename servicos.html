@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Serviços - Dondza Abroad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0b0b0b;
+      color: #ccc;
+      line-height: 1.6;
+    }header {
+  background-color: #111;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-text h1 {
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+
+.logo-text p {
+  font-size: 12px;
+  color: #dcdcdc;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: rgb(195, 70, 70);
+}
+
+.yellow-bar {
+  height: 4px;
+  background-color: rgb(195, 70, 70);
+}
+
+.servicos-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.servico-box {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.servico-box:hover {
+  transform: translateY(-5px);
+}
+
+.servico-box img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.servico-box h3 {
+  color: rgb(195, 70, 70);
+  margin-bottom: 10px;
+}
+
+.servico-box p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #111;
+  padding: 25px 20px;
+  text-align: center;
+  color: #ccc;
+  font-size: 13px;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+}
+
+.whatsapp-button img {
+  width: 100%;
+}
+
+.sessions {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .session-area {
+      background-color: white;
+      width: 45%;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+     
+    }
+
+    .session-area {
+    img {
+      width: 100%;
+      height: 200px;
+      
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo DA">
+        <div class="logo-text">
+          <h1>Dondza Abroad</h1>
+          <p>"Educação sem fronteiras, oportunidades sem limites"</p>
+        </div>
+      </div>
+      <nav>
+        <a href="paginainicial.html">Início</a>
+        <a href="sobrenos.html">Sobre Nós</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contacto</a>
+      </nav>
+    </div>
+    <div class="yellow-bar"></div>
+  </header>  <section class="servicos-section">
+
+    <main>
+        <section class="sessions">
+         
+          <div class="session-area">
+            <img src="https://smartitframe.com/assets/imgs/xr-metaverse/xr-metaverse-home-banner.jpg" alt="Metaverse">
+            <h2>Metaverse & Extended Reality</h2>
+            <p>Explore immersive AR/VR environments and their role in the future digital landscape.</p>
+          </div>
+    
+       
+          <div class="session-area">
+            <img src="https://www.device42.com/blog/wp-content/uploads/2023/03/14_01edge-cloud-computing.jpg" alt="Edge Computing">
+            <h2>Edge Computing</h2>
+            <p>Accelerate data processing by bringing computation closer to devices.</p>
+          </div>
+          
+    
+      
+          <div class="session-area">
+            <img src="https://cdn.mos.cms.futurecdn.net/rFMm9mi8RB3hWbffaTpXSE-970-80.jpg.webp" alt="Quantum Computing">
+            <h2>Quantum Computing</h2>
+            <p>Understand the fundamentals and potential of quantum technology.</p>
+          </div>
+    
+        
+        </section>
+
+
+   
+  </section>  <a href="https://wa.me/seunumerowhatsapp" target="_blank" class="whatsapp-button">
+    <img src="img/whatsapp-icon.png" alt="WhatsApp">
+  </a>  <footer>
+    &copy; 2025 Dondza Abroad. Todos os direitos reservados. |
+    <a href="#">Termos</a> |
+    <a href="#">Privacidade</a>
+  </footer>
+</body>
+</html>
